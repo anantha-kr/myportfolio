@@ -1,0 +1,144 @@
+body {
+	background-image: #000;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	padding-left: 10%;
+	padding-right: 10%;
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	height: auto;
+	width: 100%;
+	background-color: #A593E0;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	position: relative;
+
+}
+
+.about {
+	justify-content: center;
+	border: 5px;
+
+}
+
+.about h2 {
+	margin-left: 20px;
+	color: #FFFFF3;
+}
+
+.about p {
+	color: #E0E3DA;
+}
+
+.avatar {
+	/*justify-content: right;*/
+
+}
+
+.avatar img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.footer {
+	width: 100%;
+	/*height: auto;*/
+	background-color: #566270;
+	color: #FFFFF3;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: space-between;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	position: relative;
+	/*padding-top: 5%;*/
+
+
+}
+
+.navbar ul {
+	list-style-type: none;
+	justify-content: center;
+	padding-bottom: 5px;
+}
+
+.navbar li {
+	margin: 1em;
+}
+
+.navbar a {
+	text-decoration:none;
+	color: #FFFFF3;
+}
+
+.contact {
+	justify-content: center;
+}
+
+.contact img {
+	width: 30px;
+	height: 30px;
+	padding: 1em;
+}
+
+
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 99; /* Sit on top */
+	left: 0;
+	right:0;
+	top: 0;
+	bottom:0;
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal-content {
+	background-color: #fefefe;
+	position:fixed;
+	top:20%;
+	bottom:20%;
+	left:0;
+	right:0;
+	margin:auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 70%; /* Could be more or less, depending on screen size */
+	display:none;
+	box-sizing:border-box;
+	z-index:100;
+	overflow:auto;
+}
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+cursor:pointer;
+  
+}
+
+.close:hover, .close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.header p {
+  background-color: blue;
+  width: 100%;
+}
